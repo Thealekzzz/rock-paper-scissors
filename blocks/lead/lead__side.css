@@ -1,0 +1,8 @@
+.lead__side {
+  width: 100%;
+  min-height: 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

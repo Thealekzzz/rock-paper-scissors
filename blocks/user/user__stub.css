@@ -1,0 +1,9 @@
+.user__stub {
+  right: 130px;
+
+}
+
+.user__stub:not(.lead__stub_hidden) {
+  animation: wiggle 1s ease-in-out 0s infinite alternate;
+
+}

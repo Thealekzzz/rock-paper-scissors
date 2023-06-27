@@ -1,0 +1,23 @@
+.lead__stub {
+  position: absolute;
+  top: 20px;
+
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+
+  transition:
+    visibility .5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity .5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes wiggle {
+  from {
+    transform: translateY(5px);
+  }
+
+  to {
+    transform: translateY(-5px);
+  }
+}

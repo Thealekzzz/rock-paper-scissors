@@ -1,0 +1,6 @@
+.user__decision-image {
+  height: 128px;
+  margin-right: 150px;
+  
+  transform: rotateZ(45deg) scaleX(-1);
+}

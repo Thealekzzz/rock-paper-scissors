@@ -1,0 +1,6 @@
+.result-popup_hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50%) translateY(10px);
+
+}

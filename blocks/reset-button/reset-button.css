@@ -1,0 +1,28 @@
+.reset-button {
+  display: block;
+
+  margin: 50px auto 0;
+  padding: 15px 40px;
+
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+
+  background-color: rgba(12, 181, 248, 0.712);
+  border-radius: 5px;
+  border: none;
+
+  box-shadow: 4px 4px 40px rgba(12, 181, 248, 0.4);
+
+  cursor: pointer;
+  transition: background-color .2s;
+
+}
+
+.reset-button:hover {
+  background-color: rgba(12, 142, 248, 0.76);
+}
+
+.reset-button:active {
+  background-color: rgba(12, 95, 248, 0.863);
+}

@@ -1,0 +1,12 @@
+.user__choices {  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 15px;
+
+  width: 215px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

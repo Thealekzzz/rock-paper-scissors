@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Kuznetsov">
+
+    <link rel="stylesheet" href="./pages/index.css">
+
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+
+    <script src="./scripts/index.js" defer></script>
+
+    <title>Rock Paper Scissors</title>
+</head>
+<body class="page">
+
+    <header class="header">
+        <div class="header__container">
+            Rock! Paper! Scissors!
+        </div>
+    </header>
+    
+    <main>
+        <div class="lead">
+            <div class="lead__side lead__user">
+                <div class="user__choices">
+                    <button class="user__choise">
+                        <img src="./images/rock.svg" alt="Rock, button" class="user__choise-image">
+                    </button>
+                    <button class="user__choise">
+                        <img src="./images/paper.svg" alt="Paper, button" class="user__choise-image">
+
+                    </button>
+                    <button class="user__choise">
+                        <img src="./images/scissors.svg" alt="Scissors, button" class="user__choise-image">
+
+                    </button>
+                </div>
+
+                <div class="user__decision">
+                    <img src="./images/paperGlow.svg" alt="User's choice, image" class="lead__decision-image lead__decision-image_hidden user__decision-image">
+
+                    <div class="user__stub lead__stub">
+                        <img src="./images/question.svg" alt="Question, image">
+                    </div>
+
+                </div>
+
+                <div class="result-popup result-popup_hidden">
+                    You won!
+                </div>
+
+
+            </div>
+
+            <div class="lead__side lead__computer">
+                <div class="computer__decision">
+                    <img src="./images/paperGlow.svg" alt="Computer's choice, image" class="lead__decision-image lead__decision-image_hidden computer__decision-image">
+
+                    <div class="computer__stub lead__stub">
+                        <img src="./images/question.svg" alt="Question, image">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <button class="reset-button">Roll again</button> -->
+    </main>
+
+</body>
+</html>

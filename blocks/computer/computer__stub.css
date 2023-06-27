@@ -1,0 +1,9 @@
+.computer__stub {
+  left: 130px;
+
+}
+
+.computer__stub:not(.lead__stub_hidden) {
+  animation: wiggle 1s ease-in-out 0.5s infinite alternate;
+
+}

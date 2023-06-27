@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap');
+
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__container.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/lead__side.css);
+@import url(../blocks/lead/lead__user.css);
+@import url(../blocks/lead/lead__decision-image.css);
+@import url(../blocks/lead/lead__decision-image_hidden.css);
+@import url(../blocks/lead/lead__stub.css);
+@import url(../blocks/lead/lead__stub_hidden.css);
+
+@import url(../blocks/user/user__choices.css);
+@import url(../blocks/user/user__choise.css);
+@import url(../blocks/user/user__choise-image.css);
+@import url(../blocks/user/user__decision-image.css);
+@import url(../blocks/user/user__decision.css);
+@import url(../blocks/user/user__stub.css);
+
+@import url(../blocks/computer/computer__decision.css);
+@import url(../blocks/computer/computer__decision-image.css);
+@import url(../blocks/computer/computer__stub.css);
+
+@import url(../blocks/reset-button/reset-button.css);
+
+@import url(../blocks/result-popup/result-popup.css);
+@import url(../blocks/result-popup/result-popup_hidden.css);
+
+
+
+
+

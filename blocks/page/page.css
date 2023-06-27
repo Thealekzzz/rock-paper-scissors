@@ -1,0 +1,8 @@
+.page {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: #060A47;
+}
+
+.page * {
+  /* border: 1px solid tomato; */
+}

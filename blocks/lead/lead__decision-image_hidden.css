@@ -1,0 +1,6 @@
+.lead__decision-image_hidden {
+  visibility: hidden;
+  opacity: 0;
+  /* transform: translateY(70px); */
+
+}
