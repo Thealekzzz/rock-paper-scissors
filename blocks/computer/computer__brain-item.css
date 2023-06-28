@@ -1,0 +1,61 @@
+.computer__brain-item {
+  width: 8px;
+  height: 8px;
+
+  background-color: #2EB4F8;
+
+  border-radius: 50%;
+
+  transition: transform .2s, opacity .2s, background-color .2s;
+}
+
+.computer__brain-item:nth-child(2n) {
+  animation:
+    colorAnim 1s ease-in-out 0s infinite alternate,
+    scaleAnim 1.5s ease-in-out 0s infinite alternate;
+}
+
+.computer__brain-item:nth-child(2n + 1) {
+  animation:
+    colorAnim 1s ease-in-out .5s infinite alternate,
+    scaleAnim 1.5s ease-in-out 1s infinite alternate;
+}
+
+.computer__brain-item:nth-child(4n + 2) {
+  animation:
+    colorAnim 2 s ease-in-out .7s infinite alternate,
+    scaleAnim 2.5s ease-in-out 1s infinite alternate;
+}
+
+.computer__brain-item:nth-child(4n + 3) {
+  animation:
+    colorAnim 1s ease-in-out .3s infinite alternate,
+    scaleAnim 2s ease-in-out .5s infinite alternate;
+}
+
+
+
+
+@keyframes colorAnim {
+  from {
+    background-color: #2EB4F8;
+    box-shadow: 0 0 10px #2EB4F8;
+  }
+
+  to {
+    background-color: #EA369E;
+    box-shadow: 0 0 5px #EA369E;
+  }
+}
+
+@keyframes scaleAnim {
+  from {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(.6) translateY(-4px);
+    opacity: .9;
+  }
+}
